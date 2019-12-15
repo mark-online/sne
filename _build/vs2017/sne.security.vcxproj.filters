@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\cipher">
+      <UniqueIdentifier>{c40d0676-a205-40b5-a97f-334b25b74f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\security">
+      <UniqueIdentifier>{558513c9-2b58-495e-9445-c02b51d9098a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\security\cipher">
+      <UniqueIdentifier>{4dcfb274-f4f4-45a7-9f00-082783d201dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\security\hash">
+      <UniqueIdentifier>{17496723-7421-4133-89b0-c8f2073f81d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hash">
+      <UniqueIdentifier>{86df2c4e-bae5-4850-bb95-0c468d5cac76}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\security\SecurityPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\security\cipher\BlockCipherFactory.cpp">
+      <Filter>src\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\security\cipher\RsaCipher.cpp">
+      <Filter>src\cipher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\security\hash\AuthlogicSha512Hash.cpp">
+      <Filter>src\hash</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\security\SecurityPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\security\cipher\BlockCipherImpl.h">
+      <Filter>src\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\security\cipher\BlockCipher.h">
+      <Filter>include\security\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\security\cipher\BlockCipherFactory.h">
+      <Filter>include\security\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\security\cipher\RsaCipher.h">
+      <Filter>include\security\cipher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\security\hash\AuthlogicSha512Hash.h">
+      <Filter>include\security\hash</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

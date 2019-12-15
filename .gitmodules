@@ -1,0 +1,6 @@
+[submodule "vendorsrc/anyrpc"]
+	path = vendorsrc/anyrpc
+	url = https://github.com/sgieseking/anyrpc.git
+[submodule "vendorsrc/StackWalker"]
+	path = vendorsrc/StackWalker
+	url = https://github.com/JochenKalmbach/StackWalker.git

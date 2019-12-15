@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugStaticMt|Win32">
+      <Configuration>DebugStaticMt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugStaticMt|x64">
+      <Configuration>DebugStaticMt</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStaticMt|Win32">
+      <Configuration>ReleaseStaticMt</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ReleaseStaticMt|x64">
+      <Configuration>ReleaseStaticMt</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{77DBE61C-4602-446D-B366-F92C1D5C0CF6}</ProjectGuid>
+    <RootNamespace>sne.server</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="staticmtrelease.props" />
+    <Import Project="anyrpc.props" />
+    <Import Project="vcpkg-static.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="staticmtdebug.props" />
+    <Import Project="anyrpc.props" />
+    <Import Project="vcpkg-static.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="anyrpc.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="anyrpc.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="staticmtrelease.props" />
+    <Import Project="anyrpc.props" />
+    <Import Project="vcpkg-static.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="staticmtdebug.props" />
+    <Import Project="anyrpc.props" />
+    <Import Project="vcpkg-static.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="release.props" />
+    <Import Project="anyrpc.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="common.props" />
+    <Import Project="debug.props" />
+    <Import Project="anyrpc.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>SNE_DLL;SNE_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>SNE_DLL;SNE_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>SNE_DLL;SNE_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>SNE_DLL;SNE_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX64</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Ylsneserver %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Lib>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Ylsneserver %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Lib>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/Ylsneserver %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Lib>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">
+    <Midl>
+      <TargetEnvironment>X64</TargetEnvironment>
+    </Midl>
+    <ClCompile>
+      <AdditionalOptions>/Ylsneserver %(AdditionalOptions)</AdditionalOptions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>ServerPCH.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>../../src/server;../../vendorsrc/zookeeper/include;../../vendorsrc/zookeeper/generated;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Lib>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\server\ServerPCH.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\session\AbstractServerSideSessionFactory.cpp" />
+    <ClCompile Include="..\..\src\server\session\ClientSideSession.cpp" />
+    <ClCompile Include="..\..\src\server\session\ServerSideSession.cpp" />
+    <ClCompile Include="..\..\src\server\session\ServerSideSessionManager.cpp" />
+    <ClCompile Include="..\..\src\server\session\heartbeater\HeartbeatReceiver.cpp" />
+    <ClCompile Include="..\..\src\server\app\ServerApp.cpp" />
+    <ClCompile Include="..\..\src\server\app\SessionServerApp.cpp" />
+    <ClCompile Include="..\..\src\server\s2s\ClientSideBridge.cpp" />
+    <ClCompile Include="..\..\src\server\s2s\ClientSideProxy.cpp" />
+    <ClCompile Include="..\..\src\server\s2s\ManagedServerSideProxy.cpp" />
+    <ClCompile Include="..\..\src\server\s2s\ServerSideBridge.cpp" />
+    <ClCompile Include="..\..\src\server\s2s\ServerSideProxy.cpp" />
+    <ClCompile Include="..\..\src\server\s2s\ServerSideProxyManager.cpp" />
+    <ClCompile Include="..\..\src\server\rcon\Service.cpp" />
+    <ClCompile Include="..\..\src\server\utility\CrashHandler.cpp" />
+    <ClCompile Include="..\..\src\server\config\IniFileConfigReader.cpp">
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|Win32'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|Win32'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='DebugStaticMt|x64'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='Release|x64'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <DisableSpecificWarnings Condition="'$(Configuration)|$(Platform)'=='ReleaseStaticMt|x64'">4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\config\ConfigReaderFactory.cpp" />
+    <ClCompile Include="..\..\src\server\config\ServerConfig.cpp" />
+    <ClCompile Include="..\..\src\server\common\Property.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\sne\server\app\DynamicObject.h" />
+    <ClInclude Include="..\..\include\sne\server\app\Factory.h" />
+    <ClInclude Include="..\..\include\sne\server\rcon\Command.h" />
+    <ClInclude Include="..\..\include\sne\server\zookeeper\ZooKeeper.h" />
+    <ClInclude Include="..\..\src\server\ServerPCH.h" />
+    <ClInclude Include="..\..\src\server\session\heartbeater\HeartbeatReceiver.h" />
+    <ClInclude Include="..\..\src\server\session\heartbeater\HeartbeatSender.h" />
+    <ClInclude Include="..\..\src\server\s2s\ClientSideBridge.h" />
+    <ClInclude Include="..\..\src\server\config\IniFileConfigReader.h" />
+    <ClInclude Include="..\..\include\sne\server\session\AbstractServerSideSessionFactory.h" />
+    <ClInclude Include="..\..\include\sne\server\session\ClientId.h" />
+    <ClInclude Include="..\..\include\sne\server\session\ClientSideSession.h" />
+    <ClInclude Include="..\..\include\sne\server\session\ServerSideSession.h" />
+    <ClInclude Include="..\..\include\sne\server\session\ServerSideSessionManager.h" />
+    <ClInclude Include="..\..\include\sne\server\session\SessionFactoryHelper.h" />
+    <ClInclude Include="..\..\include\sne\server\session\config\ClientSideSessionConfig.h" />
+    <ClInclude Include="..\..\include\sne\server\session\config\ServerSideSessionConfig.h" />
+    <ClInclude Include="..\..\include\sne\server\app\ServerApp.h" />
+    <ClInclude Include="..\..\include\sne\server\app\SessionServerApp.h" />
+    <ClInclude Include="..\..\include\sne\server\common\Property.h" />
+    <ClInclude Include="..\..\include\sne\server\common\ServerSpec.h" />
+    <ClInclude Include="..\..\include\sne\server\common\SocketAddress.h" />
+    <ClInclude Include="..\..\include\sne\server\utility\CrashHandler.h" />
+    <ClInclude Include="..\..\include\sne\server\utility\Profiler.h" />
+    <ClInclude Include="..\..\include\sne\server\config\ConfigReader.h" />
+    <ClInclude Include="..\..\include\sne\server\config\ConfigReaderFactory.h" />
+    <ClInclude Include="..\..\include\sne\server\config\ServerConfig.h" />
+    <ClInclude Include="..\..\include\sne\server\rcon\QuerySource.h" />
+    <ClInclude Include="..\..\include\sne\server\rcon\Service.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ClientSideBridgeCallback.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ClientSideProxy.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ClientSideProxyFactory.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ManagedServerSideProxy.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\S2sCertificate.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\S2sMessage.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerId.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerInfo.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideBridge.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideBridgeCallback.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideProxy.h" />
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideProxyManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="sne.base.vcxproj">
+      <Project>{462c9e3d-45c9-42a3-9221-545fab064b7f}</Project>
+    </ProjectReference>
+    <ProjectReference Include="sne.core.vcxproj">
+      <Project>{a39a5a7b-7219-4e12-85be-589c96a31c70}</Project>
+    </ProjectReference>
+    <ProjectReference Include="sne.security.vcxproj">
+      <Project>{958e92bd-0954-4154-bfab-fc344c751320}</Project>
+    </ProjectReference>
+    <ProjectReference Include="sne.sgp.vcxproj">
+      <Project>{f518ad8c-64e6-4ead-919d-1bf598993f0a}</Project>
+    </ProjectReference>
+    <ProjectReference Include="sne.srpc.vcxproj">
+      <Project>{5f0b9b2a-d2df-4b6c-8d0a-9adcf5018270}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

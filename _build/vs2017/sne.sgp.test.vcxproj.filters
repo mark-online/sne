@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\protocol">
+      <UniqueIdentifier>{6bb4eb8f-8ea5-41e3-8080-b9639217b785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session">
+      <UniqueIdentifier>{959684aa-4d82-4f7a-9131-d0f4b44760dd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\sgp\SgpTestPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\sgp\sne.sgp.test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\sgp\protocol\SecurePacketCoderTest.cpp">
+      <Filter>src\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\sgp\session\CachedSessionManagerTest.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\sgp\session\TcpSessionTest.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\sgp\session\TcpSessionAcceptorTest.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\sgp\SgpTestPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\sgp\session\TestCachedSessionManager.h">
+      <Filter>src\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\sgp\session\TestClient.h">
+      <Filter>src\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\sgp\session\TcpSessionTestFixture.h">
+      <Filter>src\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\sgp\session\TestTcpSession.h">
+      <Filter>src\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\sgp\session\TestTcpSessionManager.h">
+      <Filter>src\session</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

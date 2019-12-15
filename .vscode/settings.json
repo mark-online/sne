@@ -1,0 +1,24 @@
+{
+    "cmake.configureSettings": {
+        "SNE_BUILD_EXAMPLES": "1",
+        "SNE_BUILD_TESTS": "1"
+    },
+    "cmake.configureOnOpen": false,
+    "C_Cpp.configurationWarnings": "Disabled",
+    "files.associations": {
+        "vector": "cpp",
+        "__mutex_base": "cpp",
+        "stdexcept": "cpp",
+        "__config": "cpp",
+        "__functional_03": "cpp",
+        "__string": "cpp",
+        "deque": "cpp",
+        "functional": "cpp",
+        "list": "cpp",
+        "regex": "cpp",
+        "string": "cpp",
+        "system_error": "cpp",
+        "*.ipp": "cpp",
+        "iosfwd": "cpp"
+    }
+}

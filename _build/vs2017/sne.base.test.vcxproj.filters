@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\memory">
+      <UniqueIdentifier>{dad64362-f7cf-42c3-aa86-e61d92925a25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{982440ce-9f6e-41f5-af02-8c0a89f2fd75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\protocol">
+      <UniqueIdentifier>{6c80b2ff-cf04-4630-97ad-bb1f9dd524e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\concurrent">
+      <UniqueIdentifier>{02924717-7cdc-400a-90d6-c669dc5a439b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\base\BaseTestPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\sne.base.test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\memory\MemoryPoolTest.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\memory\MessageBlockManagerTest.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\memory\ObjectPoolTest.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\utility\LogManagerTest.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\memory\VariousMemoryAllocatorTest.cpp">
+      <Filter>src\memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\concurrent\TaskSchedulerTest.cpp">
+      <Filter>src\concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\base\protocol\MemoryBlockStreamBufferTest.cpp">
+      <Filter>src\protocol</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\base\BaseTestPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

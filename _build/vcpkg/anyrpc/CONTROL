@@ -1,0 +1,4 @@
+Source: anyrpc
+Version: 1.0.1
+Description: A multiprotocol remote procedure call system for C++
+Build-Depends:

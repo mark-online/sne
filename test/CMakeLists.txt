@@ -1,0 +1,7 @@
+add_subdirectory(core)
+add_subdirectory(base)
+add_subdirectory(security)
+add_subdirectory(srpc)
+add_subdirectory(sgp)
+#add_subdirectory(client)
+#add_subdirectory(server)

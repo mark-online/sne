@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stream">
+      <UniqueIdentifier>{e4ac69ec-3107-43a2-9290-60bc4eb333fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{7599de47-7fe4-4184-9f26-625268ab9dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\fsm">
+      <UniqueIdentifier>{5efe879d-8f6a-4820-a195-7a1657120183}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\core\CoreTestPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\sne.core.test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\stream\IBitStreamTest.cpp">
+      <Filter>src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\stream\IByteStreamTest.cpp">
+      <Filter>src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\stream\OBitStreamTest.cpp">
+      <Filter>src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\stream\OByteStreamTest.cpp">
+      <Filter>src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\stream\StreamableTest.cpp">
+      <Filter>src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\stream\VectorStreamBufferTest.cpp">
+      <Filter>src\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\utility\UnicodeTest.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\core\fsm\StateMachineTest.cpp">
+      <Filter>src\fsm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\core\CoreTestPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

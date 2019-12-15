@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{24f32669-3f28-4c13-beeb-2a06c6fe6bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stream">
+      <UniqueIdentifier>{30780780-39e7-4156-bd81-f25934cb3afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\stream\detail">
+      <UniqueIdentifier>{5f6c1ea6-98a6-4e32-b5b1-814c3459bafc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{8d4cec12-b60f-4bcd-80db-811be818c2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\utility">
+      <UniqueIdentifier>{b03239cd-c061-4785-9e41-d612e875206a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\container">
+      <UniqueIdentifier>{46199d5e-be9d-4bfe-8756-e9da3b3712af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\memory">
+      <UniqueIdentifier>{504c18b2-d737-458f-85ac-30dfeaa0e9f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\stream">
+      <UniqueIdentifier>{3146d9d9-26bc-4a5e-8d82-ca9a8d21b18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\stream\detail">
+      <UniqueIdentifier>{7db1e60e-b35c-42d2-b5db-511a21d44c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\fsm">
+      <UniqueIdentifier>{2d12a9df-3e01-4517-b658-d5d5fbc83a3c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\core\CorePCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\utility\SmartPtr.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\utility\Unicode.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\utility\Win32Util.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\stream\detail\IBitStream.cpp">
+      <Filter>src\stream\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\stream\detail\IByteStream.cpp">
+      <Filter>src\stream\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\stream\detail\OBitStream.cpp">
+      <Filter>src\stream\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\stream\detail\OByteStream.cpp">
+      <Filter>src\stream\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\core\stream\detail\SneStreamFactory.cpp">
+      <Filter>src\stream\detail</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\core\CorePCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\Exception.h">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\Bits.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\CppUtils.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\CUtils.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\Endian.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\Hash.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\Singleton.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\SmartPtr.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\Unicode.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\Win32Util.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\container\Containers.h">
+      <Filter>include\core\container</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\memory\MemoryPoolMixin.h">
+      <Filter>include\core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\memory\StdAllocator.h">
+      <Filter>include\core\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\Exception.h">
+      <Filter>include\core\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\IStream.h">
+      <Filter>include\core\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\OStream.h">
+      <Filter>include\core\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\Stream.h">
+      <Filter>include\core\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\Streamable.h">
+      <Filter>include\core\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\StreamBuffer.h">
+      <Filter>include\core\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\StreamFactory.h">
+      <Filter>include\core\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\detail\IBitStream.h">
+      <Filter>include\core\stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\detail\IByteStream.h">
+      <Filter>include\core\stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\detail\OBitStream.h">
+      <Filter>include\core\stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\detail\OByteStream.h">
+      <Filter>include\core\stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\detail\SneStreamFactory.h">
+      <Filter>include\core\stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\stream\detail\VectorStreamBuffer.h">
+      <Filter>include\core\stream\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\fsm\Event.h">
+      <Filter>include\core\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\fsm\State.h">
+      <Filter>include\core\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\fsm\StateMachine.h">
+      <Filter>include\core\fsm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\core\utility\SystemUtil.h">
+      <Filter>include\core\utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

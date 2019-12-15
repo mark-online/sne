@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\examples\echo\EchoClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\echo\EchoServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\echo\EchoTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\echo\EchoTestPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\examples\echo\EchoConfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\examples\echo\EchoClient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\echo\Echoer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\echo\EchoMessage.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\echo\EchoServer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\echo\EchoTestPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\examples\echo\EchoConfig.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

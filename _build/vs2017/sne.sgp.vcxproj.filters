@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session">
+      <UniqueIdentifier>{b857d3ff-9d26-408a-adc6-8d5d5caf2587}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session\extension">
+      <UniqueIdentifier>{3c8ffe0a-a882-4746-aed3-13a093d9fc61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\protocol">
+      <UniqueIdentifier>{ba815475-58bf-4aa8-8347-e027b77db5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\protocol\cs">
+      <UniqueIdentifier>{f18e8faf-a2de-4681-a514-76cc6580e2ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\protocol\security">
+      <UniqueIdentifier>{affa8f9a-7435-4f79-bea0-11ef0ae8716c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sgp">
+      <UniqueIdentifier>{b34ddc23-3752-4eb3-b599-b51371cac5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sgp\session">
+      <UniqueIdentifier>{09d61161-4ea7-4c05-ade1-b53401f496cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sgp\session\detail">
+      <UniqueIdentifier>{01403473-b541-4a00-8097-a6c71b6aa5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sgp\session\extesion">
+      <UniqueIdentifier>{ac600a27-4f6c-4dee-a012-6caf7315d211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sgp\protocol">
+      <UniqueIdentifier>{bb935135-9820-4eee-8113-1465345bcbe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sgp\protocol\cs">
+      <UniqueIdentifier>{d6c68103-d340-40cb-9c08-d5628c28ddb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\sgp\protocol\security">
+      <UniqueIdentifier>{650bc3fd-1a25-449f-bb07-f67336816ce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\sgp\SgpPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\session\SgpMarshaller.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\session\SgpSessionImplFactory.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\session\extension\RpcingExtension.cpp">
+      <Filter>src\session\extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\protocol\PacketCoder.cpp">
+      <Filter>src\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\protocol\PacketCoderFactory.cpp">
+      <Filter>src\protocol</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\protocol\security\CipherKeyGenerator.cpp">
+      <Filter>src\protocol\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\protocol\security\PacketSeedExchangerFactory.cpp">
+      <Filter>src\protocol\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\protocol\security\PacketSeedExchangerImpl.cpp">
+      <Filter>src\protocol\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\protocol\security\SecurePacketCoder.cpp">
+      <Filter>src\protocol\security</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sgp\protocol\security\SecurePacketCoderFactory.cpp">
+      <Filter>src\protocol\security</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\sgp\SgpPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sgp\session\SgpMarshaller.h">
+      <Filter>src\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sgp\protocol\cs\CsPacketCoder.h">
+      <Filter>src\protocol\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sgp\protocol\security\CipherKeyGenerator.h">
+      <Filter>src\protocol\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sgp\protocol\security\PacketSeedExchangerImpl.h">
+      <Filter>src\protocol\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\sgp\protocol\security\SecurePacketCoder.h">
+      <Filter>src\protocol\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\session\SgpSessionConfig.h">
+      <Filter>include\sgp\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\session\SgpSessionImplFactory.h">
+      <Filter>include\sgp\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\session\detail\Heartbeater.h">
+      <Filter>include\sgp\session\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\session\extension\RpcingExtension.h">
+      <Filter>include\sgp\session\extesion</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\PacketCoder.h">
+      <Filter>include\sgp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\PacketCoderFactory.h">
+      <Filter>include\sgp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\sgp.h">
+      <Filter>include\sgp\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\cs\CsMessage.h">
+      <Filter>include\sgp\protocol\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\cs\CsProtocol.h">
+      <Filter>include\sgp\protocol\cs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\security\PacketSeedExchanger.h">
+      <Filter>include\sgp\protocol\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\security\PacketSeedExchangerCallback.h">
+      <Filter>include\sgp\protocol\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\security\PacketSeedExchangerFactory.h">
+      <Filter>include\sgp\protocol\security</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\sgp\protocol\security\SecurePacketCoderFactory.h">
+      <Filter>include\sgp\protocol\security</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\test\srpc\DummyRpcClient.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\DummyRpcServer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\ForwardingFunctorTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\MockRpcNetwork.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\MultipleRpcReceiverTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\ReceivingFunctorTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\RpcCommandTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\RpcConainersTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\RpcEventTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\RpcForwarderTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\RpcIdTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\RpcReceiverTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\RpcTypesTest.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\sne.srpc.test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\test\srpc\SrpcTestPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\test\srpc\DummyRpcClient.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\srpc\DummyRpcCommand.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\srpc\DummyRpcEvent.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\srpc\DummyRpcInterface.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\srpc\DummyRpcServer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\srpc\MockRpcNetwork.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\test\srpc\SrpcTestPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

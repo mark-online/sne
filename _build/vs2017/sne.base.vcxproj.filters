@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{7aaea1df-00e7-4dff-8226-1453ce08153e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session">
+      <UniqueIdentifier>{a8b6ef7c-225a-4d9a-93e0-76e1558185ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session\impl">
+      <UniqueIdentifier>{90557f63-3278-4f12-9a81-050a68cbc5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session\detail">
+      <UniqueIdentifier>{f2cc11c5-6311-4c22-bed8-005ec53ed4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session\extension">
+      <UniqueIdentifier>{a130f93a-d3ce-4963-894d-bae9b26a9c30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io_context">
+      <UniqueIdentifier>{e91c1a7d-3702-4d83-bb8f-be2effa5980c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\concurrent">
+      <UniqueIdentifier>{0c214a7c-6461-47bb-8748-933290fb4d89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\base">
+      <UniqueIdentifier>{473d71f6-9c37-4641-a114-670f5a819fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\utility">
+      <UniqueIdentifier>{e0cbf934-b2fb-45ef-971e-291a82d130b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\memory">
+      <UniqueIdentifier>{560238f1-4a44-452c-b110-bc8da5821b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\session">
+      <UniqueIdentifier>{bf90d3b2-4036-4455-a3b3-b044aaa336b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\session\detail">
+      <UniqueIdentifier>{67e4acf9-ea73-4c6c-9557-06523c15d669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\session\manager">
+      <UniqueIdentifier>{13629d65-f4a6-44e7-b060-4972df3978f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\session\impl">
+      <UniqueIdentifier>{384e4366-8ba7-4d6a-9c8f-044111f13b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\session\extension">
+      <UniqueIdentifier>{3e0567e4-45f9-4b5e-b631-8bd21790cc27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\protocol">
+      <UniqueIdentifier>{5c5d7f3c-7424-4b61-84c6-b9d64fc31028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\io_context">
+      <UniqueIdentifier>{e20408c7-bc04-4878-941e-5f9fba277330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\concurrent">
+      <UniqueIdentifier>{b45a2632-fa51-406a-bff0-6ae4df027c6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\session\impl\detail">
+      <UniqueIdentifier>{756c8ed2-c319-477d-9be9-4dfa5c2aba2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\base\win32">
+      <UniqueIdentifier>{20921602-7bf0-45be-b7df-11d15491286a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\base\BasePCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\utility\Assert.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\utility\LogManager.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\utility\StackTracer.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\session\BandwidthLimit.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\session\CachedSessionManager.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\session\Session.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\session\detail\SessionImpl.cpp">
+      <Filter>src\session\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\session\extension\MessagingExtension.cpp">
+      <Filter>src\session\extension</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\concurrent\TaskScheduler.cpp">
+      <Filter>src\concurrent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\utility\SystemUtil.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\io_context\IoContext.cpp">
+      <Filter>src\io_context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\io_context\IoContextAcceptor.cpp">
+      <Filter>src\io_context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\io_context\IoContextTask.cpp">
+      <Filter>src\io_context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\session\impl\TcpSessionImpl.cpp">
+      <Filter>src\session\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\io_context\IoContextConnector.cpp">
+      <Filter>src\io_context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\base\utility\Logger.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\base\BasePCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\base\session\BandwidthLimit.h">
+      <Filter>src\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\utility\Assert.h">
+      <Filter>include\base\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\utility\Logger.h">
+      <Filter>include\base\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\utility\LogManager.h">
+      <Filter>include\base\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\utility\StackTracer.h">
+      <Filter>include\base\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\memory\MemoryPool.h">
+      <Filter>include\base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\memory\ObjectPool.h">
+      <Filter>include\base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\memory\VariousMemoryAllocator.h">
+      <Filter>include\base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\Session.h">
+      <Filter>include\base\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\detail\SessionCallback.h">
+      <Filter>include\base\session\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\detail\SessionCapacity.h">
+      <Filter>include\base\session\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\detail\SessionConfig.h">
+      <Filter>include\base\session\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\detail\SessionStats.h">
+      <Filter>include\base\session\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\manager\CachedSessionManager.h">
+      <Filter>include\base\session\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\manager\SessionCreator.h">
+      <Filter>include\base\session\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\manager\SessionDestroyer.h">
+      <Filter>include\base\session\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\manager\SessionFactory.h">
+      <Filter>include\base\session\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\manager\SessionManager.h">
+      <Filter>include\base\session\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\manager\SessionPool.h">
+      <Filter>include\base\session\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\manager\SessionValidator.h">
+      <Filter>include\base\session\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\impl\SessionImpl.h">
+      <Filter>include\base\session\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\extension\MessagingExtension.h">
+      <Filter>include\base\session\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\extension\SessionExtension.h">
+      <Filter>include\base\session\extension</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\protocol\Marshaller.h">
+      <Filter>include\base\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\protocol\Message.h">
+      <Filter>include\base\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\io_context\IoContext.h">
+      <Filter>include\base\io_context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\io_context\IoContextAcceptor.h">
+      <Filter>include\base\io_context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\io_context\IoContextTask.h">
+      <Filter>include\base\io_context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\io_context\Timer.h">
+      <Filter>include\base\io_context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\concurrent\Future.h">
+      <Filter>include\base\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\concurrent\Runnable.h">
+      <Filter>include\base\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\concurrent\TaskScheduler.h">
+      <Filter>include\base\concurrent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\protocol\MemoryBlockStreamBuffer.h">
+      <Filter>include\base\protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\detail\MemoryBlockProvider.h">
+      <Filter>include\base\session\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\utility\SystemUtil.h">
+      <Filter>include\base\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\memory\MemoryBlock.h">
+      <Filter>include\base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\memory\MemoryBlockManager.h">
+      <Filter>include\base\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\base\io_context\AsioTimer.h">
+      <Filter>src\io_context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\session\impl\detail\TcpSessionImpl.h">
+      <Filter>include\base\session\impl\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\io_context\IoContextConnector.h">
+      <Filter>include\base\io_context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\base\win32\NT_Service.h">
+      <Filter>include\base\win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

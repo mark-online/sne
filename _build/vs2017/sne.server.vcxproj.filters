@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\session">
+      <UniqueIdentifier>{c1b7c9aa-ee4b-4d31-883e-ba8008c949bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\session\heartbeater">
+      <UniqueIdentifier>{8fada958-0a48-4278-a5d3-d3e1d88c180a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\app">
+      <UniqueIdentifier>{d67f6093-9e96-4f44-8688-0873fdd0c123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\s2s">
+      <UniqueIdentifier>{925901a7-8714-44fa-8ca9-f6b9c100860f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\rcon">
+      <UniqueIdentifier>{8d1c7415-f11a-416d-9541-e01229e50e83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utility">
+      <UniqueIdentifier>{40de43e1-27b6-419e-aa29-b5417bef3e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\config">
+      <UniqueIdentifier>{b94cfff6-293e-4026-ba5e-b0a6a602adb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\common">
+      <UniqueIdentifier>{cb486f7a-afdf-41c4-b41e-f07847814839}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\server">
+      <UniqueIdentifier>{88886585-7fc9-48f0-b087-bb3a6e5737e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\session">
+      <UniqueIdentifier>{1a07e32a-fa75-4942-8227-c6995fb5875a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\session\config">
+      <UniqueIdentifier>{d06537cc-d82a-4ac3-90b6-7beb47e2c440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\app">
+      <UniqueIdentifier>{33407f13-a849-4146-a935-4428c212e620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\common">
+      <UniqueIdentifier>{681e5103-fd5d-4c3b-ac7e-936c79df0c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\utility">
+      <UniqueIdentifier>{ee79e4ad-019c-4dcf-b035-d928046d5c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\config">
+      <UniqueIdentifier>{d04ab84e-493e-4bd2-a21c-39aea4b5422a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\rcon">
+      <UniqueIdentifier>{ef83eb12-0b9c-45a0-a3a0-377a6202ab67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\s2s">
+      <UniqueIdentifier>{16d9ff43-1c16-44c4-bcc2-36930dd6942b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\server\zookeeper">
+      <UniqueIdentifier>{1bea0f71-75fa-4e6e-b406-3b8f8a62c767}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\server\ServerPCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\session\AbstractServerSideSessionFactory.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\session\ClientSideSession.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\session\ServerSideSession.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\session\ServerSideSessionManager.cpp">
+      <Filter>src\session</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\session\heartbeater\HeartbeatReceiver.cpp">
+      <Filter>src\session\heartbeater</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\app\ServerApp.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\app\SessionServerApp.cpp">
+      <Filter>src\app</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\s2s\ClientSideBridge.cpp">
+      <Filter>src\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\s2s\ClientSideProxy.cpp">
+      <Filter>src\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\s2s\ManagedServerSideProxy.cpp">
+      <Filter>src\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\s2s\ServerSideBridge.cpp">
+      <Filter>src\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\s2s\ServerSideProxy.cpp">
+      <Filter>src\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\s2s\ServerSideProxyManager.cpp">
+      <Filter>src\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\rcon\Service.cpp">
+      <Filter>src\rcon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\utility\CrashHandler.cpp">
+      <Filter>src\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\config\ConfigReaderFactory.cpp">
+      <Filter>src\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\config\ServerConfig.cpp">
+      <Filter>src\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\common\Property.cpp">
+      <Filter>src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\server\config\IniFileConfigReader.cpp">
+      <Filter>src\config</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\server\ServerPCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\session\heartbeater\HeartbeatReceiver.h">
+      <Filter>src\session\heartbeater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\session\heartbeater\HeartbeatSender.h">
+      <Filter>src\session\heartbeater</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\s2s\ClientSideBridge.h">
+      <Filter>src\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\AbstractServerSideSessionFactory.h">
+      <Filter>include\server\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\ClientId.h">
+      <Filter>include\server\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\ClientSideSession.h">
+      <Filter>include\server\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\ServerSideSession.h">
+      <Filter>include\server\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\ServerSideSessionManager.h">
+      <Filter>include\server\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\SessionFactoryHelper.h">
+      <Filter>include\server\session</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\config\ClientSideSessionConfig.h">
+      <Filter>include\server\session\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\session\config\ServerSideSessionConfig.h">
+      <Filter>include\server\session\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\app\ServerApp.h">
+      <Filter>include\server\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\app\SessionServerApp.h">
+      <Filter>include\server\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\common\Property.h">
+      <Filter>include\server\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\common\ServerSpec.h">
+      <Filter>include\server\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\common\SocketAddress.h">
+      <Filter>include\server\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\utility\CrashHandler.h">
+      <Filter>include\server\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\utility\Profiler.h">
+      <Filter>include\server\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\config\ConfigReader.h">
+      <Filter>include\server\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\config\ConfigReaderFactory.h">
+      <Filter>include\server\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\config\ServerConfig.h">
+      <Filter>include\server\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\rcon\Service.h">
+      <Filter>include\server\rcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ClientSideBridgeCallback.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ClientSideProxy.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ClientSideProxyFactory.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ManagedServerSideProxy.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\S2sCertificate.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\S2sMessage.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerId.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerInfo.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideBridge.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideBridgeCallback.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideProxy.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\s2s\ServerSideProxyManager.h">
+      <Filter>include\server\s2s</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\server\config\IniFileConfigReader.h">
+      <Filter>src\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\rcon\Command.h">
+      <Filter>include\server\rcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\rcon\QuerySource.h">
+      <Filter>include\server\rcon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\zookeeper\ZooKeeper.h">
+      <Filter>include\server\zookeeper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\app\DynamicObject.h">
+      <Filter>include\server\app</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\server\app\Factory.h">
+      <Filter>include\server\app</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

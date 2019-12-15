@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\ado">
+      <UniqueIdentifier>{9e859c54-4406-4d4b-b566-649043187080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proxy">
+      <UniqueIdentifier>{6d593961-0d56-47f7-ac95-41ececbdf26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proxy\server">
+      <UniqueIdentifier>{cf1d28e1-ce89-4b17-9a0a-fad2984174ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proxy\server\s2s">
+      <UniqueIdentifier>{fcafbc3d-ce8e-4aef-971f-6b123dbffe44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proxy\server\mssql">
+      <UniqueIdentifier>{055f5943-3bdc-4ed3-a471-f964584f96de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\proxy\server\scheduler">
+      <UniqueIdentifier>{ea772910-8287-48d4-ab2e-44437cac1c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="include\database">
+      <UniqueIdentifier>{d36cf179-11e4-4474-9575-b9084afdf279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\database\ado">
+      <UniqueIdentifier>{e137f1e9-aeed-4067-b063-f4c4747773e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\database\proxy">
+      <UniqueIdentifier>{f98d43d1-5337-4753-a9b2-fddb03cbc2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\database\proxy\server">
+      <UniqueIdentifier>{7ab11044-aced-4025-ab3c-bede6b6d8ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\database\proxy\server\s2s">
+      <UniqueIdentifier>{fdeec374-d28b-48fb-b08c-0672e3b5d115}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\database\DatabaseManager.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\DatabaseManagerFactory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\DatabasePCH.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\DatabasePool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\ado\AdoDatabase.cpp">
+      <Filter>src\ado</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\proxy\DatabaseClientSideProxy.cpp">
+      <Filter>src\proxy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\proxy\server\BaseDatabaseProxyServerApp.cpp">
+      <Filter>src\proxy\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\proxy\server\DatabaseProxyService.cpp">
+      <Filter>src\proxy\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\proxy\server\s2s\DatabaseProxyServerSideSession.cpp">
+      <Filter>src\proxy\server\s2s</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\proxy\server\mssql\SqlServerProxyDatabase.cpp">
+      <Filter>src\proxy\server\mssql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\proxy\server\scheduler\ProxyScheduler.cpp">
+      <Filter>src\proxy\server\scheduler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\database\proxy\server\scheduler\RequestMethod.cpp">
+      <Filter>src\proxy\server\scheduler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\database\DatabasePCH.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\DatabasePool.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\DirectDatabaseManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\ProxyDatabaseManager.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\proxy\server\DatabaseProxyService.h">
+      <Filter>src\proxy\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\proxy\server\ProxyDatabase.h">
+      <Filter>src\proxy\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\proxy\server\mssql\SqlServerProxyDatabase.h">
+      <Filter>src\proxy\server\mssql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\proxy\server\scheduler\ProxyScheduler.h">
+      <Filter>src\proxy\server\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\database\proxy\server\scheduler\RequestMethod.h">
+      <Filter>src\proxy\server\scheduler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\Connection.h">
+      <Filter>include\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\Database.h">
+      <Filter>include\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\DatabaseFactory.h">
+      <Filter>include\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\DatabaseManager.h">
+      <Filter>include\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\DatabaseManagerFactory.h">
+      <Filter>include\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\DatabaseTask.h">
+      <Filter>include\database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\ado\AdoConnection.h">
+      <Filter>include\database\ado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\ado\AdoDatabase.h">
+      <Filter>include\database\ado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\ado\AdoDatabaseUtils.h">
+      <Filter>include\database\ado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\proxy\DatabaseClientSideProxy.h">
+      <Filter>include\database\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\proxy\DatabaseProxyMessage.h">
+      <Filter>include\database\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\proxy\DatabaseRequest.h">
+      <Filter>include\database\proxy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\proxy\server\BaseDatabaseProxyServerApp.h">
+      <Filter>include\database\proxy\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\sne\database\proxy\server\s2s\DatabaseProxyServerSideSession.h">
+      <Filter>include\database\proxy\server\s2s</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
